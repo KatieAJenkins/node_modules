@@ -1,8 +1,8 @@
 'use strict';
- var greeting =  require('./greetings');
-
-greeting('Omar');
-greeting('Stringer');
+//  var greeting =  require('./greetings');
+//
+// greeting('Omar');
+// greeting('Stringer');
 
 // ***** PART 1 ***** //
 
@@ -17,8 +17,18 @@ greeting('Stringer');
 
 //Then, reference the examples shown there to export the following function from goodbyes.js to main.js in four different ways (i.e., using four types of syntax). Once exported, call the code from main.js, printing to the console "Farewell, dear Kima" (Make sure to check that each exported function works).
 
-// var farewell = function(name){
-//   console.log("Farewell, dear " + name);
-// };
-//
-// farewell('Kima');
+//export a function
+// var goodbye = require('./goodbyes');
+//   goodbye('Kima');
+
+//export an object #1
+// var goodbye = require('./goodbyes');
+// goodbye.name('Kima');
+
+//export an object #2
+// var goodbye = require('./goodbyes');
+// goodbye.farewell('Kima');
+
+//export an object #3
+var goodbye = require('./goodbyes');
+goodbye.farewell('Kima');
