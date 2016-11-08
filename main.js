@@ -6,7 +6,7 @@ greeting('Stringer');
 
 // ***** PART 1 ***** //
 
-//Explain to each other how the module.exports object works and how the require() function works.
+//Refer to the code above, as well as that in greetings.js. Explain to a partner how the module.exports object works and how the require() function works.
 
 //If we execute the code in main.js, what can we expect to see in the terminal?
 

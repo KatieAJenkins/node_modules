@@ -1,6 +1,6 @@
 'use strict';
 
-//export as a function (one method)
+//export farewell as a function (one method)
 
 
-//export as an object (three methods)
+//export farewell as an object (three methods)
