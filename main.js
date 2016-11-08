@@ -31,4 +31,5 @@
 
 //export an object #3
 var goodbye = require('./goodbyes');
-goodbye.farewell('Kima');
+goodbye.name('Kima');
+goodbye.hello("Kima");
